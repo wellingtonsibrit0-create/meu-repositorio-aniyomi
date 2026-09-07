@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Pokémothim Scraper",
+    "url": "https://pokemothim.net",
+    "description": "Puxa episódios dublados diretamente do acervo",
+    "language": "pt-BR",
+    "version": 1,
+    "tvTypes": ["Anime"],
+    "scrapers": {
+      "query": "Pokémon",
+      "regexEpisode": "href=\"([^\"]+)\"[^>]*>Episódio\\s*(\\d+)",
+      "videoResolver": "drive.google|blogger"
+    }
+  }
+]
