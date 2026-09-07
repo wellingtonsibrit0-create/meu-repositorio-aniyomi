@@ -1,0 +1,8 @@
+{
+  "name": "Meu Repositório Pokémon",
+  "description": "Extensão customizada para assistir Pokémon Liga Índigo",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://githubusercontent.com"
+  ]
+}
